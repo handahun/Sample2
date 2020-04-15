@@ -24,6 +24,7 @@ public class sqliteHelper extends SQLiteOpenHelper {
         db.execSQL("insert into person_table(name,age) values ('本田 圭佑', 24);");
         db.execSQL("insert into person_table(name,age) values ('遠藤 保仁', 30);");
         db.execSQL("insert into person_table(name,age) values ('松井 大輔', 29);");
+        db.execSQL("insert into person_table(name,age) values ('aaa 2', 30);");
     }
 
     @Override
