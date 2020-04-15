@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
             layout.addView(tv);
         }
         //編集テスト
+        //編集テスト
         c.close();
 
         db.close();
