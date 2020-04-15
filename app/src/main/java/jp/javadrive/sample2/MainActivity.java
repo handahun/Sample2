@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
             isEof = c.moveToNext();
             layout.addView(tv);
         }
+        //編集テスト
         c.close();
 
         db.close();
